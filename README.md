@@ -1,8 +1,8 @@
-# 🍽️ Tasty Bites - Secure Web Hosting on AWS
+# Tasty Bites - Secure Web Hosting on AWS
 
 Complete infrastructure and React frontend for a secure, scalable restaurant website using AWS services.
 
-## 🏗️ Architecture
+## Architecture
 
 **Backend Infrastructure:**
 - **S3**: Static website hosting with encryption and versioning
@@ -15,7 +15,7 @@ Complete infrastructure and React frontend for a secure, scalable restaurant web
 - **React**: Modern responsive website with blue theme
 - **Components**: Header, Hero, About, Menu, Contact, Footer
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 P1/
@@ -42,7 +42,7 @@ P1/
         └── components/
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Deploy Infrastructure
 ```bash
@@ -65,7 +65,7 @@ chmod +x scripts/*.sh
 ./scripts/test.sh
 ```
 
-## 🔧 Manual Setup
+## Manual Setup
 
 ### Backend Infrastructure
 ```bash
@@ -84,7 +84,7 @@ npm start          # Development server
 npm run build      # Production build
 ```
 
-## 🔒 Security Features
+## Security Features
 
 - **HTTPS Enforcement**: All traffic redirected to HTTPS
 - **WAF Protection**: AWS managed rule sets + rate limiting (2000 req/5min)
@@ -92,26 +92,26 @@ npm run build      # Production build
 - **Origin Access Control**: Only CloudFront can access S3
 - **Least Privilege IAM**: Minimal deployment permissions
 
-## 📊 Monitoring
+## Monitoring
 
 - CloudWatch alarms for error rates and latency
 - WAF metrics for blocked requests  
 - Log retention for 30 days
 
-## 💰 Cost Optimization
+## Cost Optimization
 
 - CloudFront PriceClass_100 (US/Canada/Europe)
 - S3 Standard storage class
 - **Estimated: $0.50-1.50/month** for low traffic
 
-## 🧹 Cleanup
+## Cleanup
 
 ```bash
 # Destroy all AWS resources
 ./scripts/destroy.sh
 ```
 
-## 🎨 Frontend Features
+## Frontend Features
 
 - **Responsive Design**: Mobile-first approach
 - **Blue Theme**: Professional shades of blue
@@ -119,14 +119,14 @@ npm run build      # Production build
 - **Performance**: Optimized React components
 - **SEO Ready**: Proper meta tags and structure
 
-## 📋 Prerequisites
+## Prerequisites
 
 - AWS CLI configured with appropriate credentials
 - Terraform >= 1.0 installed
 - Node.js >= 16 for React development
 - Git Bash or WSL (for Windows users)
 
-## 🔧 Key Features
+## Key Features
 
 - **Auto-Generated Bucket Names**: No need to manually create unique S3 bucket names
 - **Terraform Validation**: Built-in configuration validation before deployment
